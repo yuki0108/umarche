@@ -12,6 +12,5 @@ class LifeCycleTestController extends Controller
         });
 
         $test = app()->make('lifeCycleTest');
-        dd($test, app());
     }
 }
